@@ -1,0 +1,16 @@
+* {
+    background: pink;
+}
+
+/* caja adaptativa */
+.caja {
+    width: 30vw;
+    height: 30vw;
+    border: solid black 2px;
+}
+
+
+@media only screen and (max-width:650px) {
+   * {background: red;}
+   .caja {background: white;}
+}

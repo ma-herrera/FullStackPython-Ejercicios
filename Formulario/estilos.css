@@ -1,0 +1,48 @@
+/* Selector universal. Al ppio del archivo de estilos
+para propiedades globales */
+
+* {
+    margin: 10 px;
+    background-color: blueviolet;
+}
+
+h1 {
+    color:blue;
+    background-color: beige;
+}
+
+/* Selector de clase */
+
+.H1Repetido {
+    color:brown;
+    background-color: aqua;
+}
+
+
+/* Selector de id. En gral se usa uno solo x nombre en c/pagina
+Se usa mas para funcionalidad que para estilo */
+
+#OtroH1 {
+    color:rgb(121, 109, 109);
+    background-color: aqua;
+}
+p{
+    color: red;
+    font-size: 25px;
+}
+
+.parrafo{
+    color: green;
+    font-size: 40px;
+}
+
+#identificadorPrueba {
+    color: blanchedalmond;
+    font-size: 60;
+}
+
+input {
+    color: lightslategrey;
+    background-color: black;
+}
+

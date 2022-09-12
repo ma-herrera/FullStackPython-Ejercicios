@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularioDeRegistro</title>
+</head>
+<body>
+    <h1>
+        
+        <form action="" method="post">
+            <div>
+            <label for="Nombre"></label>Nombre: <input name="Nombre" type="text" size="18em" maxlength="30em" placeholder="Ingrese su nombre aquí">
+            <label for="Apellido"></label>Apellido: <input name="Apellido" type="text" size="18em" maxlength="30em" placeholder="Ingrese su apellido aquí">
+            </div>
+            <div>
+                <p>Dirección:</p>
+            </div>
+            <div>
+                <label for="Calle">Calle: </label><input name="Calle" type="text" size="10em" maxlength="15em" placeholder="Ingrese la calle aquí">
+                <label for="Numero"></label>Número: <input name="Numero" type="number" size="6em" maxlength="6em" placeholder="Ingrese el número">
+                <label for="Ciudad">Ciudad: </label><input name="Ciudad" type="text" size="10em" maxlength="15em" value="C.A.B.A.">
+                <label for="CodigoPostal"></label>Código Postal: <input name="CodigoPostal" type="text" pattern="[a-zA-Z][0-9]{4}[a-zA-Z]{3}|[0-9]{4}" size="8em" maxlength="8em" placeholder="x9999xxx ó 9999">                
+            </div>
+            <div>
+                <label for="Email">Email: </label><input name="Email" type="email" size="25em" maxlength="45em" placeholder="Ingrese el email aquí">
+            </div>
+            <button>Enviar</button>
+        </form>
+    </h1>
+</body>
+</html>

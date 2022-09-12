@@ -1,0 +1,53 @@
+p{
+    color: red;
+    font-weight: bold;
+}
+
+h1 {
+    width: 300px;
+    background-color: crimson;
+}
+
+/* al salir vuelve al turquesa */
+.mitransicion {
+    width: 300px;
+    background-color: aqua;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+ }
+
+ h1:hover {
+    width: 400px;
+    background-color: rgb(180, 199, 199);
+    transition-property: all;
+    transition-duration:3s; /*duracion de la transicion de salida*/
+    transition-timing-function: linear; 
+    transition-delay: 0s;
+ }
+/*transformaciones*/
+
+#rotar:hover {
+    transform: rotate(45deg);
+}
+
+#transicion:hover {
+    width: 130px;
+    background-color: blueviolet;
+    color: beige;
+    transition-property: all;
+    transition-duration: 0.1s; /*transicion de entrada*/
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+.mianimacion {
+    animation: fadeIn,slideInDown;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+hr {
+    color: orange;
+    size: 3px;
+}

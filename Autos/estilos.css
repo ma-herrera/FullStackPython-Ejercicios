@@ -1,0 +1,16 @@
+/* estilo de la caja de fondo. Rectangulo con fondo blanco. */
+.fondoBlanco {
+    background-color: rgb(231, 247, 88);
+}
+
+.fotoAutomovil {
+    border: 3px solid black;
+    margin: 5px;
+    vertical-align: middle;
+} 
+
+/* img {
+    border: 10px solid black;
+    border-radius: 5px;
+    border-color: black;
+} */

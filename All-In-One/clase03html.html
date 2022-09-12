@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllInOne</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+<body>
+
+    <p>Hola</p>
+    <!-- IMAGEN -->
+    <!-- Colocar una imagen de la web -->
+    <img src="https://picsum.photos/id/237/200/300" width="200" height="300">
+    <!-- Colocar una imagen de una carpeta -->
+    <img src="assets/Hoja2.png" width="200" height="300">
+
+    <!-- TABLAS -->
+    <!--  -->
+    
+    <br><hr><br>
+        
+        <table>
+            <colgroup>
+              <col span="2" style="background-color:red">
+              <col style="background-color:yellow">
+            </colgroup>
+            <tr>
+              <th>ISBN</th>
+              <th>Title</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>3476896</td>
+              <td>My first HTML</td>
+              <td>$53</td>
+            </tr>
+        </table>
+    
+    <br><hr><br>
+
+    <table>
+        <caption>Council budget (in £) 2018</caption>
+            <thead>
+            <tr>
+               <th>Items</th>
+                <th scope="col">Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Donuts</th>
+                <td>3,000</td>
+            </tr>
+            <tr>
+                <th scope="row">Stationery</th>
+                <td>18,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><hr><br>
+
+        <table>
+            <caption>Superheros and sidekicks</caption>
+            <colgroup>
+                <col>
+                <col span="2" class="batman"> <!-- span: une celdas contiguas -->
+                <col span="2" class="flash">
+            </colgroup>
+            <tr>
+                <td> </td>
+                <th scope="col">Batman</th> <!-- scope: indica que el atributo se aplica a la columna -->
+                <th scope="col">Robin</th>  <!-- No tiene efecto visual, pero sí para lectores de contenido (para ciegos) -->
+                <th scope="col">The Flash</th>
+                <th scope="col">Kid Flash</th>
+            </tr>
+            <tr>
+                <th scope="row">Skill</th>
+                <td>Smarts</td>
+                <td>Dex, acrobat</td>
+                <td>Super speed</td>
+                <td>Super speed</td>
+            </tr>
+        </table>
+
+    <br><hr><br>
+
+    <table border = "5">
+        <caption>Caption: Celdas asimétricas</captioncaption>
+                <tr>
+                    <th>HEADER-COL1</th><th>HEADER-COL2</th><th>HEADER-COL3</th><th>HEADER-COL4</th>
+                </tr>
+                <tr>
+                    <td colspan="3">Fila 1: tres columnas unidas</td>
+                    <td>Fila1 Col4</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Fila2 Col1 y Col2</td>
+                    <td rowspan="2">Fila2 Col3</td>
+                    <td>Fila2 Col4</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Fila3 Col1 y Col2</td>
+                    <td>Fila3 Col4</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Fila4: tres columnas unidas</td>
+                    <td>Fila4 Col4</td>
+                </tr>
+    </table>    
+
+
+    <form action="" method="POST" target="_blank"></form>
+
+    <form>
+        <label for="fname">First name:</label><br> <!-- for es algo descriptivo -->
+
+
+        <label for="name">First name:</label><br>
+        <input type="text" name="name" placeholder="Arturo">
+        <br><br>
+        <label for="contraseña">Contraseña:</label><br>
+        <input type="password" size="50" maxlength="15" name="contraseña" placeholder="********">
+        
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+
+        <p>OPCIONES</p>
+
+        <p>Deje su comentario</p>
+        <textarea name="Comentarios" placeholder="Deje su comentario aquí" id="" cols="30" rows="10"></textarea>
+      </form>
+
+      <!-- Transformaciones -->
+
+      <h1>h1 300px fondo rojo</h1>
+
+      <article>
+        <h1 id="rotar">h1 Rotar</h1>
+      </article>
+
+      <!-- Transiciones -->
+      <article>
+        <h1 class="mitransicion">h1 mitransicion</h1>
+      </article>
+      
+      <!-- Animacion: Animate -->
+      <article>
+        <h1 class="mianimacion">h1 Animacion con Animate + transicion</h1>
+      </article>
+      
+
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+* {
+    /* background-color: aliceblue; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+body {
+    width: 96vw;
+    /* width: 960px; */
+    height: 150vh;
+    /* background-color: rgb(182, 231, 48) ; */
+    /* border: solid 2px black; */
+}
+
+header h1{
+	/* font-size:50px; */
+    font-size: 3em;
+    line-height: 3%;
+}
+/* h1{
+	font-size:30px;
+} */
+h2{
+	font-style:italic;
+}
+
+header{
+    width: 100%;
+    height: 20%;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: center; */
+    align-content: center;
+}
+
+img[src="./estrella.jpg"] {
+    width: auto;
+    height: 80%;
+    /* padding:  30% 10% 30% 20%; */
+    padding-left: 20%;
+    padding-top: 20%;
+    padding-right: 1%;
+    padding-bottom: 20%;
+    margin-top: 10%;
+}
+
+.skylight {
+    margin: 5% 0% 0% 0%;
+    /* margin-top: 5%;    */
+}
+
+nav{
+    width: 100%;
+    height: 5%;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-content: center; */
+    padding: 1% 1% 1% 1%;
+
+}
+
+nav * {
+    background-color: brown;
+    color: black;
+    font-size: medium;
+    text-decoration: none;
+    /* text-align: center; */
+}
+main{
+    height: 125%;
+    padding: 3%;
+    background-color: antiquewhite;
+}
+
+.cuerpo1{
+    width: 70%;
+    height: 100%;
+    float: left;
+    /* background-color: blueviolet; */
+    padding: 2%;
+    overflow: auto;
+}
+
+.cuerpo2{
+    width: 27%;
+    height: 100%;
+    margin-left: 3%;
+    background-color: gray;
+    float: right;
+    padding: 2%;
+    /* overflow: auto; */
+}
+
+p {
+    /* padding: 1vw; */
+    font-size: small;
+    text-align: left;
+}
+
+article.cuerpo1 h1 {
+    color: brown;
+    font-size: 2em;
+}
+
+article.cuerpo2 h1 {
+    color: orange;
+    font-size: 1.5em;
+}
+
+article.cuerpo2 hr {
+    color: orange;
+    border: solid 1px;
+    width: 90%;
+}
+

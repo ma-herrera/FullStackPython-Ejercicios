@@ -1,0 +1,8 @@
+.section1 {
+    position: relative;
+    background-color: aqua;
+    top: 20px;
+    width: 100px;
+    height: 140px;
+    padding: -10    px;
+}
